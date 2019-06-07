@@ -1,0 +1,6 @@
+Bundle-Name: Liferay Segments Context Extension AI Data
+Bundle-SymbolicName: com.liferay.segments.context.extension.ai.data
+Bundle-Version: 1.0.0
+Bundle-ClassPath: ., lib/jersey-core-1.19.1.jar, lib/jersey-client-1.19.1.jar, lib/json-simple-1.1.jar, lib/jackson-jaxrs-json-provider-2.9.5.jar
+-includeresource: lib/jersey-core-1.19.1.jar = jersey-core-1.19.1.jar, lib/jersey-client-1.19.1.jar = jersey-client-1.19.1.jar, lib/json-simple-1.1.jar = json-simple-1.1.jar, lib/jersey-json-1.19.1.jar = jersey-json-1.19.1.jar, lib/jackson-jaxrs-json-provider-2.9.5.jar = jackson-jaxrs-json-provider-2.9.5.jar 
+Web-ContextPath: /rule-weather
