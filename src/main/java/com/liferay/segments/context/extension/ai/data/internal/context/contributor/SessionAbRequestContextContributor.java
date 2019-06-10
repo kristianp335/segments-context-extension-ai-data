@@ -62,7 +62,8 @@ public class SessionAbRequestContextContributor
 		System.out.println("The session id = " + sessionId);		
 		Character lastChar = sessionId.charAt(sessionId.length() -1);
 		int charNumericValue = Character.getNumericValue(lastChar);	
-		if (charNumericValue/2 == 0)
+		//checks if the interger is divisible by 2, if it can be then it is even
+		if (charNumericValue % 2 == 0)
 		{
 			actualStateOfAb = true;
 		}
