@@ -32,14 +32,14 @@ import org.osgi.service.component.annotations.Component;
 	immediate = true,
 	property = {
 		"segments.field.customizer.entity.name=Context",
-		"segments.field.customizer.key=" + SampleSegmentsFieldCustomizer.KEY,
-		"segments.field.customizer.priority:Integer=50"
+		"segments.field.customizer.key=" + SessionAbSegmentsFieldCustomizer.KEY,
+		"segments.field.customizer.priority:Integer=51"
 	},
 	service = SegmentsFieldCustomizer.class
 )
-public class SampleSegmentsFieldCustomizer implements SegmentsFieldCustomizer {
+public class SessionAbSegmentsFieldCustomizer implements SegmentsFieldCustomizer {
 
-	public static final String KEY = "weather";
+	public static final String KEY = "sessionab";
 
 	@Override
 	public List<String> getFieldNames() {
@@ -56,10 +56,10 @@ public class SampleSegmentsFieldCustomizer implements SegmentsFieldCustomizer {
 		ResourceBundle resourceBundle = ResourceBundleUtil.getBundle(
 			"content.Language", locale, getClass());
 
-		return LanguageUtil.get(resourceBundle, "weather-field-label");
+		return LanguageUtil.get(resourceBundle, "sessionab-field-label");
 	}
 
 	private static final List<String> _fieldNames = ListUtil.fromArray(
-		new String[] {"weather"});
+		new String[] {"sessionab"});
 
 }

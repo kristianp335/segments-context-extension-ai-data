@@ -54,8 +54,12 @@ Provide-Capability: osgi.service;objectClass:List<String>="com.liferay
  me="content.Language"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Service-Component: OSGI-INF/com.liferay.segments.context.extension.ai.
- data.internal.context.contributor.WeatherRequestContextContributor.xm
- l,OSGI-INF/com.liferay.segments.context.extension.ai.data.internal.fi
- eld.customizer.SampleSegmentsFieldCustomizer.xml
+ data.internal.context.contributor.SessionAbRequestContextContributor.
+ xml,OSGI-INF/com.liferay.segments.context.extension.ai.data.internal.
+ context.contributor.WeatherRequestContextContributor.xml,OSGI-INF/com
+ .liferay.segments.context.extension.ai.data.internal.field.customizer
+ .SessionAbSegmentsFieldCustomizer.xml,OSGI-INF/com.liferay.segments.c
+ ontext.extension.ai.data.internal.field.customizer.WeatherSegmentsFie
+ ldCustomizer.xml
 Tool: Bnd-3.2.0.201605172007
 Web-ContextPath: /rule-weather
