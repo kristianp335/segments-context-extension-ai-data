@@ -12,9 +12,9 @@ Import-Package: com.fasterxml.jackson.annotation,com.fasterxml.jackson
  com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.int
  rospect,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.jax
  rs.base,com.fasterxml.jackson.jaxrs.cfg,com.fasterxml.jackson.module.
- jaxb,com.liferay.portal.kernel.json;version="[8.1,9)",com.liferay.por
+ jaxb,com.liferay.portal.kernel.json;version="[8.0,9)",com.liferay.por
  tal.kernel.language;version="[7.5,8)",com.liferay.portal.kernel.util;
- version="[9.5,10)",com.liferay.segments.context;version="[1.0,2)",com
+ version="[9.0,10)",com.liferay.segments.context;version="[1.0,2)",com
  .liferay.segments.context.contributor;version="[1.0,2)",com.liferay.s
  egments.field.customizer;version="[1.0,2)",javax.activation,javax.ima
  geio,javax.imageio.spi,javax.imageio.stream,javax.mail,javax.mail.int
